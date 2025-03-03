@@ -1,6 +1,7 @@
 import asyncio
 import time
 import streamlit as st
+from deepseek import AsyncDeepSeek  # Replace with the correct import
 from deepseek.chat import AsyncDeepSeek
 
 
