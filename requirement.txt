@@ -1,5 +1,0 @@
-streamlit==1.32.0
-deepseek==0.1.0  # Replace with the actual DeepSeek SDK version if available
-asyncio==3.4.3
-aiohttp==3.9.3   # Required for async API calls if DeepSeek SDK uses it
-python-dotenv==1.0.0  # Optional, for managing environment variables
