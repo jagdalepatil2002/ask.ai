@@ -4,7 +4,7 @@ import streamlit as st
 from deepseek import AsyncDeepSeek  # Assuming DeepSeek has a similar async client
 
 # Hardcoded API Key (REPLACE WITH YOUR ACTUAL KEY)
-DEEPSEEK_API_KEY = "sk-e399a7c54ece4963bbd8665422051e64"  # <--- IMPORTANT: Replace this!
+DEEPSEEK_API_KEY =   # <--- IMPORTANT: Replace this!
 
 # Predefined Response for Creator Questions
 CREATOR_QUESTIONS = [
@@ -196,4 +196,4 @@ if theme == "Dark":
             color: #ffffff;
         }
         </style>
-        """, unsafe_allow_html=True)s
+        """, unsafe_allow_html=True)
