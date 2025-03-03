@@ -1,7 +1,8 @@
 import asyncio
 import time
 import streamlit as st
-from deepseek import AsyncDeepSeek  # Assuming DeepSeek has a similar async client
+from deepseek.chat import AsyncDeepSeek
+
 
 # Hardcoded API Key (REPLACE WITH YOUR ACTUAL KEY)
 DEEPSEEK_API_KEY = "sk-e399a7c54ece4963bbd8665422051e64"  # <--- IMPORTANT: Replace this!
