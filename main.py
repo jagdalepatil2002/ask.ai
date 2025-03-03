@@ -4,7 +4,7 @@ import streamlit as st
 from deepseek import AsyncDeepSeek  # Assuming DeepSeek has a similar async client
 
 # Hardcoded API Key (REPLACE WITH YOUR ACTUAL KEY)
-DEEPSEEK_API_KEY = "sk-1d0e8bf6ced243a9b5e807ea4ef95c1e"  # <--- IMPORTANT: Replace this!
+DEEPSEEK_API_KEY = "sk-e399a7c54ece4963bbd8665422051e64"  # <--- IMPORTANT: Replace this!
 
 # Predefined Response for Creator Questions
 CREATOR_QUESTIONS = [
@@ -80,7 +80,7 @@ async def get_response(messages):
     try:
         chat_completion = await client.chat.completions.create(
             messages=messages,
-            model="deepseek-model-name",  # Replace with the actual model name
+            model="deepseek-v1",  # Replace with the actual model name
             temperature=0.5,
             max_tokens=1024,
             top_p=1,
